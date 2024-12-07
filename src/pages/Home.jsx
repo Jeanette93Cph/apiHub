@@ -3,7 +3,7 @@ function Home() {
         <>
         <h1>Event recommendation</h1>
         <div>
-            <a href="">Deployed API</a>
+            <a href="https://event.xn--jeanettessgttsche-80bc.dk/api/routes">Deployed API</a>
         </div>
         <div>
             <a href="https://github.com/KamiStolt/eventRecommendation.git">Repository</a>
