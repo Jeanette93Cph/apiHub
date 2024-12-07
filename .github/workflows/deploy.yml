@@ -34,7 +34,7 @@ jobs:
         run: |
           # Define SSH connection info
           SSH_USER="jetty"
-          DO_DROPLET_IP="64.226.126.238"
+          DO_DROPLET_IP=${{ secrets.DO_DROPLET_IP }} 
           APP_NAME="apihub"
           REMOTE_PATH="/home/jetty/2semDockerSetupRemote/site/$APP_NAME/"
 
