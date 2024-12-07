@@ -23,7 +23,7 @@ function MainLayout() {
                     <Outlet />
                 </main>
                 <footer>
-                    <p>&copy; Group number</p>
+                    <p>&copy; Group 6</p>
                     <p>ApiHub</p>
                 </footer>
             </Container>
