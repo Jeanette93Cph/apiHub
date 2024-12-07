@@ -1,4 +1,4 @@
-import picture from '../assets/images/eventpic.png';
+//import picture from '../assets/images/eventpic.png';
 
 function Home() {
     return ( 
