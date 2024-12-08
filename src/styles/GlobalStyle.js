@@ -34,15 +34,16 @@ const GlobalStyle = createGlobalStyle`
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid red; 
+        border: 2px solid #74ad44; 
         width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     header{
         padding: 1rem; 
         width: 100%; 
         max-width: var(--small-device);
-        border-bottom: 1px solid silver;
+        border-bottom: 1px solid #74ad44;
     }
 
     main{
@@ -58,21 +59,29 @@ const GlobalStyle = createGlobalStyle`
         max-width: var(--small-device);
         display: flex;
         justify-content: space-evenly;
-        border-top: 1px solid silver;
+        border-top: 1px solid #74ad44;
     }
 
     h1{
 //  2rem = 2 * default 
         font-size: 2rem;
         color: var(--text-color-light);
+        padding-bottom: 40px;
+        text-align: center;
     }
 
     h2{
         font-size: 1.5rem;
+        padding-bottom: 40px;
+        text-align: center;
     }
 
     p{
         font-size: 1rem;
+    }
+
+    a{
+        color: darkgreen;
     }
 
 

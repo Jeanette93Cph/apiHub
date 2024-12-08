@@ -8,7 +8,7 @@ const Container = styled.div`
     flex-direction: column;
     max-width: var(--small-device);
     width: 100%;
-    border: 1px solid blue; 
+    border: 1px solid #74ad44; 
 `
 
 function MainLayout() {

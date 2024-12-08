@@ -1,5 +1,11 @@
-import styled from 'styled-components';
+//import picture from '../assets/images/eventpic.png';
+import styled from "styled-components";
 import eventlogo from '../assets/images/Eventpic.png';
+
+
+const StyledDiv = styled.div`
+    padding-top: 20px;
+`
 
 const StyledImage = styled.img`
   object-fit: cover;
@@ -14,15 +20,15 @@ function Home() {
         <>
         <h1>Home</h1>
         <StyledImage src={eventlogo} alt="Event Recommendation" /> 
-        <div>
+        <StyledDiv>
             <a href="https://event.xn--jeanettessgttsche-80bc.dk/api/routes">Deployed API</a>
-        </div>
-        <div>
+        </StyledDiv>
+        <StyledDiv>
             <a href="https://github.com/KamiStolt/eventRecommendation.git">Repository</a>
-        </div>
-        <div>
+        </StyledDiv>
+        <StyledDiv>
             <a href="https://excalidraw.com/#json=LgTpZsk99PIBNqsxtu-jp,trA5eG2xVmcJhqpH8ee2tg">Mockup</a>
-        </div>
+        </StyledDiv>
         </>
      );
 }
