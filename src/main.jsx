@@ -6,6 +6,7 @@ import MainLayout from './layouts/MainLayout.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import Vision from './pages/Vision.jsx'
 import Endpoints from './pages/Endpoints.jsx'
+import Login from './pages/Login.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path ='vision' element={<Vision />} />
       <Route path ='endpoints' element={<Endpoints />} />
+      <Route path ='login' element={<Login />} />
     </Route>  
   )
 )
