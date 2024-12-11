@@ -15,6 +15,7 @@ const StyledImage = styled.img`
   border-radius: 4px;
 `;
 
+
 function Home() {
     return ( 
         <>
