@@ -21,7 +21,10 @@ function Home() {
         <>
         <StyledImage src={eventlogo} alt="Event Recommendation" /> 
         <StyledDiv>
-            <a href="https://event.xn--jeanettessgttsche-80bc.dk/api/routes">Deployed API</a>
+            <a href="https://event.crookedwing.dk/">Event recommendation website</a>
+        </StyledDiv>
+        <StyledDiv>
+            <a href="https://api.event.xn--jeanettessgttsche-80bc.dk/api/routes">Deployed API</a>
         </StyledDiv>
         <StyledDiv>
             <a href="https://github.com/KamiStolt/eventRecommendation.git">Repository</a>
